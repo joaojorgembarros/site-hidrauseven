@@ -360,7 +360,7 @@ function App() {
           <SectionIntro
             eyebrow="Serviços"
             title="Serviços para linha leve, pesada e equipamentos"
-            text="Conteúdo recuperado do site antigo, agora em um formato mais atual e fácil de ler no celular."
+            text="Atendimento técnico para direção hidráulica, caminhões, basculantes, munck, prancha, máquinas e frotas."
           />
 
           <div className="mx-auto mt-10 grid max-w-7xl gap-4 px-5 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
