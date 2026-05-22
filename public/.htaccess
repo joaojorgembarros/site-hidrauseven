@@ -1,0 +1,15 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.hidrauseven\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://hidrauseven.com.br/$1 [L,R=301]
+
+RedirectMatch 301 ^/contato/?$ /#contato
+RedirectMatch 301 ^/quem-somos/?$ /#empresa
+RedirectMatch 301 ^/produtos/?$ /#produtos
+RedirectMatch 301 ^/servicos/?$ /#servicos
+RedirectMatch 301 ^/services/?$ /#servicos
+RedirectMatch 301 ^/products/?$ /#produtos
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
