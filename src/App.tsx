@@ -261,7 +261,7 @@ function App() {
             href={whatsappUrl}
             target="_blank"
             rel="noreferrer"
-            className="hidden items-center gap-2 rounded-lg bg-[#006aa6] px-5 py-3 text-sm font-black text-white shadow-lg shadow-sky-900/15 transition hover:-translate-y-0.5 hover:bg-[#045783] lg:inline-flex"
+            className="hidden items-center gap-2 rounded-lg bg-[#25d366] px-5 py-3 text-sm font-black text-white shadow-lg shadow-emerald-900/15 transition hover:-translate-y-0.5 hover:bg-[#1fb85a] lg:inline-flex"
           >
             Orçamento
             <ArrowRight size={17} />
@@ -295,7 +295,7 @@ function App() {
                 target="_blank"
                 rel="noreferrer"
                 onClick={closeMenu}
-                className="mt-2 rounded-lg bg-[#006aa6] px-4 py-3 text-center text-sm font-black text-white"
+                className="mt-2 rounded-lg bg-[#25d366] px-4 py-3 text-center text-sm font-black text-white"
               >
                 Solicitar orçamento
               </a>
@@ -322,15 +322,24 @@ function App() {
                 máquinas e frotas. Simples, técnico e direto ao ponto.
               </p>
 
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a
                   href={whatsappUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#ef2d35] px-6 py-4 text-base font-black text-white shadow-xl shadow-red-900/20 transition hover:-translate-y-0.5 hover:bg-[#d91f28]"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#25d366] px-6 py-4 text-base font-black text-white shadow-xl shadow-emerald-900/20 transition hover:-translate-y-0.5 hover:bg-[#1fb85a]"
                 >
                   Chamar no WhatsApp
                   <Phone size={19} />
+                </a>
+                <a
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(135deg,#833ab4_0%,#fd1d1d_52%,#fcb045_100%)] px-6 py-4 text-base font-black text-white shadow-xl shadow-pink-900/20 transition hover:-translate-y-0.5 hover:brightness-105"
+                >
+                  Instagram
+                  <InstagramIcon size={19} />
                 </a>
                 <a
                   href="#servicos"
@@ -455,11 +464,11 @@ function App() {
                 Empresa
               </p>
               <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl">
-                Mais de 25 anos de experiência em hidráulica.
+                Mais de 30 anos de experiência em hidráulica.
               </h2>
               <div className="mt-5 grid gap-4 text-base leading-8 text-slate-600 sm:text-lg">
                 <p>
-                  Há mais de 25 anos no mercado, a Hidrau Seven atua no segmento de
+                  Há mais de 30 anos no mercado, a Hidrau Seven atua no segmento de
                   reparação de sistemas hidráulicos e direção hidráulica com uma meta
                   fundamental: conquistar clientes por meio de trabalho honesto, com
                   qualidade, garantia e preço justo.
@@ -508,7 +517,7 @@ function App() {
                   href={whatsappUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#ef2d35] px-5 py-4 font-black text-white shadow-lg shadow-red-900/15 transition hover:-translate-y-0.5 hover:bg-[#d91f28]"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#25d366] px-5 py-4 font-black text-white shadow-lg shadow-emerald-900/15 transition hover:-translate-y-0.5 hover:bg-[#1fb85a]"
                 >
                   <Headphones size={19} />
                   WhatsApp
@@ -533,7 +542,7 @@ function App() {
                   href={INSTAGRAM_URL}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-lg border border-sky-900/15 px-5 py-4 font-black text-[#006aa6] transition hover:bg-sky-50"
+                  className="inline-flex items-center justify-center gap-2 rounded-lg bg-[linear-gradient(135deg,#833ab4_0%,#fd1d1d_52%,#fcb045_100%)] px-5 py-4 font-black text-white shadow-lg shadow-pink-900/15 transition hover:-translate-y-0.5 hover:brightness-105"
                 >
                   <InstagramIcon size={19} />
                   Instagram
@@ -567,7 +576,7 @@ function App() {
         target="_blank"
         rel="noreferrer"
         aria-label="Chamar a Hidrau Seven no WhatsApp"
-        className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#ef2d35] text-white shadow-2xl shadow-red-950/35 transition hover:-translate-y-1 hover:bg-[#d91f28]"
+        className="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25d366] text-white shadow-2xl shadow-emerald-950/35 transition hover:-translate-y-1 hover:bg-[#1fb85a]"
       >
         <Phone size={25} />
       </a>
